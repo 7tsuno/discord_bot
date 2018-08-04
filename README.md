@@ -6,11 +6,20 @@
 
 DISCORD側にBOTユーザを作る。(ぐぐれば出るので省略)
 
-同じディレクトリにtoken.jsonを用意する。
+setting.jsonにtokenを追記する。
 
-```json:token.json
+```json:setting.json
 {
   "token" : "ディスコードBOTのアクセストークン"
+}
+```
+
+dictionary.jsonに返答させたい対象の文と返答文の組み合わせを追記する。
+
+```json:setting.json
+{
+  "ぬるぽ" : "ガッ",
+  "山" : "川"
 }
 ```
 

@@ -2,16 +2,13 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const token = require( "./token.json" ).token;
+const token = require( "./setting.json" ).token;
 
 client.on('ready', () => {
     console.log('ready...');
 });
 
-const dictionary = {
-	'ほげ' : 'ほげほげ',
-	'ふが' : 'ふがふが'
-}
+const dictionary = require( "./dictionary.json" )
 
 
 client.on('message', message => {
