@@ -1,0 +1,24 @@
+{
+  "name": "sample-bot",
+  "version": "1.0.0",
+  "description": "特定の文字列に対して返事を返すBot",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7tsuno/discord_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7tsuno/discord_bot/issues"
+  },
+  "homepage": "https://github.com/7tsuno/discord_bot#readme"
+}
